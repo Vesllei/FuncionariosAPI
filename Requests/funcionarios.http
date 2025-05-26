@@ -1,0 +1,19 @@
+### Listar todos os funcionários
+GET http://localhost:5290/api/funcionarios
+
+### Buscar funcionário por ID
+GET http://localhost:5290/api/funcionarios/11
+
+### Adicionar novo funcionário
+POST http://localhost:5290/api/funcionarios
+Content-Type: application/json
+
+{
+  "nome": "Teste",
+  "cargo": "teste",
+  "salario": 8800.00,
+  "dataAdmissao": "1997-08-02"
+}
+
+### Deletar funcionário
+DELETE http://localhost:5290/api/funcionarios/11
