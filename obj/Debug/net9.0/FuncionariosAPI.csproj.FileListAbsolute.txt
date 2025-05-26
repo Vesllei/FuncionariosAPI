@@ -149,3 +149,4 @@ C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\refint\Fu
 C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\FuncionariosAPI.pdb
 C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\FuncionariosAPI.genruntimeconfig.cache
 C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\ref\FuncionariosAPI.dll
+C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\FuncionariosAPI.sourcelink.json

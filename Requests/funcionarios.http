@@ -9,10 +9,10 @@ POST http://localhost:5290/api/funcionarios
 Content-Type: application/json
 
 {
-  "nome": "Teste",
+  "nome": "Teste2",
   "cargo": "teste",
   "salario": 8800.00,
-  "dataAdmissao": "1997-08-02"
+  "dataAdmissao": "1994-08-02"
 }
 
 ### Deletar funcionário

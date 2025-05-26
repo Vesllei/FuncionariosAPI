@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using CadastroFuncionariosAPI.Models;
 using CadastroFuncionariosAPI.Data;
+using CadastroFuncionariosAPI.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,16 +10,12 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 
 var app = builder.Build();
 
-
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.EnsureCreated();
     if (!db.Funcionarios.Any())
-
     {
-        
-
         db.Funcionarios.AddRange(new[]
         {
             new Funcionario { Nome = "João Silva", Cargo = "Gerente", Salario = 8000, DataAdmissao = DateTime.Now },
@@ -31,42 +28,14 @@ using (var scope = app.Services.CreateScope())
             new Funcionario { Nome = "Fernanda Costa", Cargo = "RH", Salario = 4700, DataAdmissao = DateTime.Now },
             new Funcionario { Nome = "Pedro Gonçalves", Cargo = "Marketing", Salario = 5100, DataAdmissao = DateTime.Now },
             new Funcionario { Nome = "Juliana Martins", Cargo = "Vendas", Salario = 4600, DataAdmissao = DateTime.Now }
-
         });
-
         db.SaveChanges();
     }
 }
 
-// Endpoints
-
-// GET - Listar todos os funcionários
-app.MapGet("/api/funcionarios", async (AppDbContext db) =>
-    await db.Funcionarios.ToListAsync());
-
-// GET - Buscar funcionário por ID
-app.MapGet("/api/funcionarios/{id}", async (int id, AppDbContext db) =>
-    await db.Funcionarios.FindAsync(id) is Funcionario f
-        ? Results.Ok(f)
-        : Results.NotFound());
-
-// POST - Adicionar novo funcionário
-app.MapPost("/api/funcionarios", async (Funcionario funcionario, AppDbContext db) =>
-{
-    db.Funcionarios.Add(funcionario);
-    await db.SaveChangesAsync();
-    return Results.Created($"/api/funcionarios/{funcionario.Id}", funcionario);
-});
-
-// DELETE - Excluir funcionário por ID
-app.MapDelete("/api/funcionarios/{id}", async (int id, AppDbContext db) =>
-{
-    var funcionario = await db.Funcionarios.FindAsync(id);
-    if (funcionario is null) return Results.NotFound();
-
-    db.Funcionarios.Remove(funcionario);
-    await db.SaveChangesAsync();
-    return Results.NoContent();
-});
+// endpoints
+app.MapFuncionarioGet();
+app.MapFuncionarioPost();
+app.MapFuncionarioDelete();
 
 app.Run();
