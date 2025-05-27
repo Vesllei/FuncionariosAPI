@@ -1,12 +1,1042 @@
 {
   "Version": 1,
-  "Hash": "saHBFEytySslGYzqYO7c4JsZXCsjmI26dau91vzp25o=",
+  "Hash": "fp2XpdINhchIqqmq6fggHixcL5xpQUEgEUoMC2ZClDI=",
   "Source": "FuncionariosAPI",
   "BasePath": "_content/FuncionariosAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "FuncionariosAPI\\wwwroot",
+      "Source": "FuncionariosAPI",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\g2b7q215by-ma2bqvngxr.gz",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "app#[.{fingerprint=ma2bqvngxr}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bnie7w3yue",
+      "Integrity": "5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\irxpmo2y4w-g9s987ythj.gz",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "index#[.{fingerprint=g9s987ythj}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1suvx0qhzg",
+      "Integrity": "kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\pvjh1vox8i-78cgigo4ne.gz",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "styles#[.{fingerprint=78cgigo4ne}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cer1kyfeje",
+      "Integrity": "9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\app.js",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ma2bqvngxr",
+      "Integrity": "onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\index.html",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g9s987ythj",
+      "Integrity": "rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\styles.css",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "78cgigo4ne",
+      "Integrity": "57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\g2b7q215by-ma2bqvngxr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000579374276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\g2b7q215by-ma2bqvngxr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM="
+        }
+      ]
+    },
+    {
+      "Route": "app.ma2bqvngxr.js",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\g2b7q215by-ma2bqvngxr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000579374276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma2bqvngxr"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8="
+        }
+      ]
+    },
+    {
+      "Route": "app.ma2bqvngxr.js",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma2bqvngxr"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-onn48V134zOOxUziD/O2QjF0RbEWUJLKxdcM/j/QSv8="
+        }
+      ]
+    },
+    {
+      "Route": "app.ma2bqvngxr.js.gz",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\g2b7q215by-ma2bqvngxr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:01:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma2bqvngxr"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5+yJNJ+nkg0czZ62umaGflogGLkxHtumMYsKzdldwnM="
+        }
+      ]
+    },
+    {
+      "Route": "index.g9s987ythj.html",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\irxpmo2y4w-g9s987ythj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001818181818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 19:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9s987ythj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E="
+        }
+      ]
+    },
+    {
+      "Route": "index.g9s987ythj.html",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 19:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9s987ythj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E="
+        }
+      ]
+    },
+    {
+      "Route": "index.g9s987ythj.html.gz",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\irxpmo2y4w-g9s987ythj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 19:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9s987ythj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\irxpmo2y4w-g9s987ythj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001818181818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 19:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 19:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rCTH1XHS5JPRdL/g0UfJ6wc091Zeko5qLBganZeZH/E="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\irxpmo2y4w-g9s987ythj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 19:57:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kU7Br1IxGzxudMfwFT8EqwohXJk2jxtYx/GQqoecKxo="
+        }
+      ]
+    },
+    {
+      "Route": "styles.78cgigo4ne.css",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\pvjh1vox8i-78cgigo4ne.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001141552511"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "875"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:13:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "78cgigo4ne"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc="
+        }
+      ]
+    },
+    {
+      "Route": "styles.78cgigo4ne.css",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:13:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "78cgigo4ne"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc="
+        }
+      ]
+    },
+    {
+      "Route": "styles.78cgigo4ne.css.gz",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\pvjh1vox8i-78cgigo4ne.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:13:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "78cgigo4ne"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\pvjh1vox8i-78cgigo4ne.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001141552511"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "875"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:13:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:13:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-57M09pYfuL0vQ+8H4iUuyqab6f5TiM5ccMvOZ/QCODc="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "C:\\Users\\POLO\\Desktop\\FuncionariosAPI\\FuncionariosAPI\\obj\\Debug\\net9.0\\compressed\\pvjh1vox8i-78cgigo4ne.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 20:13:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9AxAScl7vIF/AdTUQL89l/ZbMDIuzJ8mA8SaDO/mXw0="
+        }
+      ]
+    }
+  ]
 }

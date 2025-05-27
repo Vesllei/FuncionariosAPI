@@ -5,15 +5,38 @@ using CadastroFuncionariosAPI.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configuração do banco de dados
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlite("Data Source=funcionarios.db"));
 
+// Configuração de CORS
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy
+                            //.WithOrigins("http://localhost:5500", "http://localhost:5290") // permite front live server e backend
+                            .AllowAnyOrigin() // CUIDADO: só para desenvolvimento/teste
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                      });
+});
+
 var app = builder.Build();
+
+app.UseCors(MyAllowSpecificOrigins);
+
+// Servir arquivos estáticos para front-end (index.html, app.js, etc)
+app.UseStaticFiles();
 
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.EnsureCreated();
+
     if (!db.Funcionarios.Any())
     {
         db.Funcionarios.AddRange(new[]

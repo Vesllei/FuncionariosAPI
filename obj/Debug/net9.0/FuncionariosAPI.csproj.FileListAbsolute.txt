@@ -150,3 +150,7 @@ C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\Funcionar
 C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\FuncionariosAPI.genruntimeconfig.cache
 C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\ref\FuncionariosAPI.dll
 C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\FuncionariosAPI.sourcelink.json
+C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\bin\Debug\net9.0\FuncionariosAPI.staticwebassets.runtime.json
+C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\compressed\g2b7q215by-ma2bqvngxr.gz
+C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\compressed\irxpmo2y4w-g9s987ythj.gz
+C:\Users\POLO\Desktop\FuncionariosAPI\FuncionariosAPI\obj\Debug\net9.0\compressed\pvjh1vox8i-78cgigo4ne.gz

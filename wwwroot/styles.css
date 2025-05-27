@@ -1,0 +1,158 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #b488e6;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background: #5913a8;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.menu li a:hover,
+.menu li a.active {
+  background: #792ad3;
+}
+
+/* Main */
+main {
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Cadastro card */
+.cadastro-card {
+  width: 90%;
+  margin: 0 auto 20px;
+}
+
+/* Lista card */
+.lista-card {
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+/* Page hidden */
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* Funcionário card na lista */
+.funcionario-card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.funcionario-card h3 {
+  margin-bottom: 6px;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+/* Alunos card */
+.alunos-card ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Estilo do formulário */
+.formulario {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.form-field label {
+  padding: 1em 0 0 0;
+
+  font-weight: bold;
+}
+
+.form-field input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botão do formulário */
+form button[type="submit"] {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #087e2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button[type="submit"]:hover {
+  background-color: #2ec25a;
+}
