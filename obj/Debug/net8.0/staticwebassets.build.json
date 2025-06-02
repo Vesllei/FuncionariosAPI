@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "n1M/ORyCUz5SsuKdA+6vvVbhlOESPzd3zT94Sf1kLBQ=",
+  "Source": "FuncionariosAPI",
+  "BasePath": "_content/FuncionariosAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FuncionariosAPI\\wwwroot",
+      "Source": "FuncionariosAPI",
+      "ContentRoot": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\app.js",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\index.html",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\styles.css",
+      "SourceId": "FuncionariosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\WESLLEYDASILVASEVERI\\Desktop\\FuncionariosAPI\\wwwroot\\",
+      "BasePath": "_content/FuncionariosAPI",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}

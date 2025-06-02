@@ -18,8 +18,8 @@ builder.Services.AddCors(options =>
                       policy =>
                       {
                           policy
-                            //.WithOrigins("http://localhost:5500", "http://localhost:5290") // permite front live server e backend
-                            .AllowAnyOrigin() // CUIDADO: só para desenvolvimento/teste
+                            
+                            .AllowAnyOrigin() 
                             .AllowAnyHeader()
                             .AllowAnyMethod();
                       });
@@ -29,7 +29,7 @@ var app = builder.Build();
 
 app.UseCors(MyAllowSpecificOrigins);
 
-// Servir arquivos estáticos para front-end (index.html, app.js, etc)
+app.UseDefaultFiles();
 app.UseStaticFiles();
 
 using (var scope = app.Services.CreateScope())

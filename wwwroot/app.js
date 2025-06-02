@@ -39,15 +39,15 @@ function renderCadastroForm(container) {
     <form id="addFuncionarioForm" class="formulario">
       <div class="form-field">
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" required />
+        <input type="text" id="nome" placeholder="Nome do Funcionário" required />
       </div>
       <div class="form-field">
         <label for="cargo">Cargo:</label>
-        <input type="text" id="cargo" required />
+        <input type="text" id="cargo" placeholder="Cargo do Funcionário" required />
       </div>
       <div class="form-field">
         <label for="salario">Salário:</label>
-        <input type="number" id="salario" step="0.01" required />
+        <input type="number" id="salario" step="0.01" placeholder="Salário do Funcionário" required />
       </div>
       <div class="form-field">
         <label for="dataAdmissao">Data de Admissão:</label>
