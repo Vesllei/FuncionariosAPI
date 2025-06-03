@@ -156,3 +156,25 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #2ec25a;
 }
+
+.edit-btn {
+  background: #3498db;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+
+}
+
+.cancel-btn{
+  background: #c0392b;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+

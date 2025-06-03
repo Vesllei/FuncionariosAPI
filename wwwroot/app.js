@@ -21,7 +21,6 @@ function navigateTo(pageId) {
     link.classList.toggle("active", link.dataset.page === pageId);
   });
 
-  // Renderiza conteúdos conforme página
   if (pageId === "geral") {
     renderCadastroForm(geralCadastroCard);
     fetchFuncionarios(geralListaCard);
@@ -32,7 +31,7 @@ function navigateTo(pageId) {
   }
 }
 
-// Renderiza formulário de cadastro dentro do container passado
+// Renderiza formulário de cadastro
 function renderCadastroForm(container) {
   container.innerHTML = `
     <h2>Cadastro de Funcionário</h2>
@@ -61,7 +60,7 @@ function renderCadastroForm(container) {
   form.addEventListener("submit", addFuncionario);
 }
 
-// Busca e renderiza lista de funcionários no container passado
+// Busca e renderiza funcionários
 async function fetchFuncionarios(container) {
   container.innerHTML = "<p>Carregando...</p>";
   try {
@@ -82,19 +81,24 @@ async function fetchFuncionarios(container) {
         <h3>${func.nome}</h3>
         <p><strong>Cargo:</strong> ${func.cargo}</p>
         <p><strong>Salário:</strong> R$ ${func.salario.toFixed(2)}</p>
-        <p><strong>Admissão:</strong> ${new Date(
-          func.dataAdmissao
-        ).toLocaleDateString()}</p>
+        <p><strong>Admissão:</strong> ${new Date(func.dataAdmissao).toLocaleDateString()}</p>
+        <button class="edit-btn" data-id="${func.id}">Editar</button>
         <button class="delete-btn" data-id="${func.id}">Excluir</button>
       `;
       container.appendChild(card);
     });
 
-    // Adiciona evento de exclusão em todos os botões
     container.querySelectorAll(".delete-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
         const id = btn.getAttribute("data-id");
         deleteFuncionario(id, container);
+      });
+    });
+
+    container.querySelectorAll(".edit-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-id");
+        startEditFuncionario(id, container);
       });
     });
   } catch (err) {
@@ -102,6 +106,7 @@ async function fetchFuncionarios(container) {
   }
 }
 
+// Adiciona funcionário
 async function addFuncionario(e) {
   e.preventDefault();
   const form = e.target;
@@ -124,7 +129,6 @@ async function addFuncionario(e) {
 
     form.reset();
 
-    // Atualiza lista na página "Geral" e "Funcionários" se estiverem visíveis
     if (document.getElementById("geral").classList.contains("active")) {
       fetchFuncionarios(geralListaCard);
     }
@@ -136,15 +140,13 @@ async function addFuncionario(e) {
   }
 }
 
+// Deleta funcionário
 async function deleteFuncionario(id, container) {
   if (confirm("Tem certeza que deseja excluir este funcionário?")) {
     try {
-      const res = await fetch(`${apiUrl}/${id}`, {
-        method: "DELETE",
-      });
+      const res = await fetch(`${apiUrl}/${id}`, { method: "DELETE" });
       if (res.status !== 204) throw new Error("Erro ao excluir funcionário!");
 
-      // Atualiza lista depois de excluir
       fetchFuncionarios(container);
     } catch (err) {
       alert(err.message);
@@ -152,10 +154,86 @@ async function deleteFuncionario(id, container) {
   }
 }
 
+// Inicia edição de funcionário
+async function startEditFuncionario(id, container) {
+  try {
+    const res = await fetch(`${apiUrl}/${id}`);
+    if (!res.ok) throw new Error("Erro ao buscar funcionário!");
+
+    const func = await res.json();
+
+    const card = [...container.children].find(
+      (el) => el.querySelector(".edit-btn")?.dataset.id === String(id)
+    );
+
+    if (!card) return;
+
+    card.innerHTML = `
+      <h3>Editando ${func.nome}</h3>
+      <form class="edit-form">
+        <div class="form-field">
+          <label>Nome:</label>
+          <input type="text" name="nome" value="${func.nome}" required />
+        </div>
+        <div class="form-field">
+          <label>Cargo:</label>
+          <input type="text" name="cargo" value="${func.cargo}" required />
+        </div>
+        <div class="form-field">
+          <label>Salário:</label>
+          <input type="number" name="salario" step="0.01" value="${func.salario}" required />
+        </div>
+        <div class="form-field">
+          <label>Data de Admissão:</label>
+          <input type="date" name="dataAdmissao" value="${func.dataAdmissao.split('T')[0]}" required />
+        </div>
+        <button type="submit">Salvar</button>
+        <button type="button" class="cancel-btn">Cancelar</button>
+      </form>
+    `;
+
+    const form = card.querySelector(".edit-form");
+    form.addEventListener("submit", (e) => saveEditFuncionario(e, id, container));
+
+    const cancelBtn = card.querySelector(".cancel-btn");
+    cancelBtn.addEventListener("click", () => fetchFuncionarios(container));
+
+  } catch (err) {
+    alert(err.message);
+  }
+}
+
+// Salva edição
+async function saveEditFuncionario(e, id, container) {
+  e.preventDefault();
+  const form = e.target;
+
+  const funcionarioAtualizado = {
+    nome: form.nome.value,
+    cargo: form.cargo.value,
+    salario: parseFloat(form.salario.value),
+    dataAdmissao: form.dataAdmissao.value,
+  };
+
+  try {
+    const res = await fetch(`${apiUrl}/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(funcionarioAtualizado),
+    });
+
+    if (!res.ok) throw new Error("Erro ao atualizar funcionário!");
+
+    fetchFuncionarios(container);
+  } catch (err) {
+    alert(err.message);
+  }
+}
+
 // Inicializa na página "Geral"
 navigateTo("geral");
 
-// Adiciona evento nos links do menu para navegação
+// Eventos de navegação
 menuLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();

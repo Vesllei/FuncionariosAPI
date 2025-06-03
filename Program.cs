@@ -60,5 +60,7 @@ using (var scope = app.Services.CreateScope())
 app.MapFuncionarioGet();
 app.MapFuncionarioPost();
 app.MapFuncionarioDelete();
+app.MapFuncionarioPut();
+
 
 app.Run();
